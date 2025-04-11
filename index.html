@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hero Section Responsive</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <section class="relative h-screen bg-cover bg-center" style="background-image: url('/assets/hero-foto.jpg');">
+    <!-- Overlay hitam -->
+    <div class="absolute inset-0 bg-black opacity-20"></div>
+
+    <!-- Logo pojok kanan atas -->
+    <div class="absolute top-0 right-4 z-20">
+        <img src="/assets/logo.svg" alt="Logo" class="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 object-contain" />
+      </div>
+      
+
+
+    <!-- Konten utama -->
+    <div class="relative z-10 flex flex-col justify-center h-full px-4 sm:px-8 md:px-20 max-w-xl">
+      <h1 class="text-3xl sm:text-4xl md:text-6xl font-extrabold leading-tight">
+        LPK TOMONI<br />
+        MARAWA ABADI<br />
+        MEDAN
+      </h1>
+      <p class="text-xs sm:text-sm md:text-base mt-4 mb-2">
+        日本語教育機関・職業訓練機関・外国政府認定送出機関
+      </p>
+      <p class="text-sm sm:text-base md:text-lg font-semibold leading-relaxed">
+        LEMBAGA PENDIDIKAN BAHASA JEPANG<br />
+        LEMBAGA PELATIHAN KEAHLIAN KERJA<br />
+        LEMBAGA PENGIRIM MAGANG RESMI (SO)
+      </p>
+    </div>
+    
+  </section>
+<!-- Tombol pojok kanan bawah -->
+<div class="absolute bottom-12 right-16 z-20">
+    <a href="#" class="bg-black text-white px-10 py-4 text-sm font-semibold hover:bg-gray-600 transition rounded">
+      Hubungi Kami
+    </a>
+  </div>
+  
+
+  <section id="about" class="bg-[#0C2545] text-white py-16 px-4 sm:px-8 md:px-16">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      
+      <!-- Kiri: Judul Besar -->
+      <div>
+        <h2 class="text-4xl sm:text-5xl font-semibold leading-tight">
+          Jembatan untuk <br />
+          Mewujudkan <br />
+          Impian Pemuda <br />
+          Indonesia di <br />
+          Jepang
+        </h2>
+      </div>
+  
+      <!-- Kanan: Paragraf -->
+      <div>
+        <p class="text-sm sm:text-base text-gray-300 leading-relaxed">
+          <span class="font-bold text-white">PT. TOMONI MARAWA ABADI</span> didirikan pada tanggal 30 Desember 2022 untuk mendukung pemuda Indonesia dalam meraih karir dan impian tinggal di Jepang, mengusung Visi “Belajar Bersama, Berkembang Bersama, dan Sukses Bersama.” Sebagai lembaga pendidikan bahasa Jepang, lembaga pelatihan kerja, dan lembaga pengiriman yang diakui oleh pemerintah Indonesia (SO), kami berkomitmen untuk mencetak sumber daya manusia yang siap berperan aktif di berbagai bidang pekerjaan di Jepang.
+        </p>
+      </div>
+  
+    </div>
+  </section>
+
+  <section class="bg-[#0d2645] text-white py-12 px-4 md:px-16">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center gap-10">
+      
+      <!-- Text Content -->
+      <div class="flex-1">
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 leading-tight">
+          Bermula dari “TOMONI JUKU” yang Sederhana di BEKASI. <br />
+          Kini hadir di kota MEDAN
+        </h2>
+        <p class="text-sm sm:text-base text-gray-200 leading-relaxed">
+          <strong class="text-white">TOMONI MARAWA ABADI</strong> berawal dari sebuah lembaga kecil bernama “TOMONI Juku” 
+          yang didirikan pada Januari 2022.<br /><br />
+          Di tempat ini, para pemuda yang bercita-cita lulus ujian kemampuan bahasa Jepang N3 berkumpul dan berjuang bersama, 
+          didukung dalam suasana penuh kehangatan layaknya keluarga. Dengan mendampingi setiap siswa secara pribadi, kami 
+          berusaha memahami mimpi mereka dan membantu mewujudkannya sambil mengeluarkan potensi terbaik yang mereka miliki.
+          <br /><br />
+          Dedikasi dan prestasi yang kami raih melalui pendekatan ini mendapatkan pengakuan tinggi di Jepang. Hal ini membuka 
+          peluang bagi TOMONI MARAWA ABADI untuk dipercaya oleh berbagai perusahaan Jepang sebagai lembaga pengirim dalam program 
+          magang teknis maupun program spesifik keterampilan. Kini, dengan semangat yang sama, <strong class="text-white">TOMONI MARAWA ABADI</strong> 
+          sudah hadir di <strong class="text-white">Kota Medan untuk Mewujudkan Impian Pemuda Indonesia di Jepang</strong>.
+        </p>
+      </div>
+  
+      <!-- Image -->
+      <div class="flex-1 flex justify-center">
+        <img src="/assets/konten1.jpg" alt="TOMONI Medan" class="w-[200px] md:w-[250px] lg:w-[300px] rounded-lg shadow-lg object-cover" />
+      </div>
+    </div>
+  </section>
+  
+  <!-- Program-program -->
+  <section class="bg-white py-12 px-4 md:px-12">
+    <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-8">Program Kami</h2>
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <!-- Program 1 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="/assets/program1.png" alt="Program Pembinaan Tenaga Perawat" class="w-full h-[360px] object-cover">
+        <div class="p-4">
+          <h3 class="text-md font-semibold text-gray-800">Program Pembinaan Tenaga Perawat</h3>
+        </div>
+      </div>
+  
+      <!-- Program 2 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="/assets/program2.png" alt="Program Magang Teknis" class="w-full h-[360px] object-cover">
+        <div class="p-4">
+          <h3 class="text-md font-semibold text-gray-800">Program Magang Teknis</h3>
+        </div>
+      </div>
+  
+      <!-- Program 3 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="/assets/program3.jpg" alt="Program Keterampilan Khusus" class="w-full h-[360px] object-cover">
+        <div class="p-4">
+          <h3 class="text-md font-semibold text-gray-800 leading-snug">
+            Program Keterampilan Khusus<br>
+            (Specified Skilled Worker Program)
+          </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Program 1 -->
+  <section class="bg-white py-12 px-6 md:px-16">
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+      
+      <!-- Konten teks -->
+      <div class="md:w-1/2">
+        <h2 class="text-2xl md:text-4xl font-bold text-gray-800 mb-4">
+          Program Pembinaan<br class="hidden md:block"> Tenaga Perawat
+        </h2>
+        <p class="text-gray-700 leading-relaxed text-justify">
+            merupakan program pelatihan dan pembinaan bagi tenaga perawat terampil yang ingin 
+            bekerja di rumah sakit maupun fasilitas lansia (caregiver) di Jepang. Program ini mencakup 
+            pelatihan bahasa Jepang (target JFT-Basic), etika kerja, budaya Jepang, serta keterampilan 
+            teknis dalam bidang keperawatan dan perawatan lansia. Peserta akan dibekali dengan pelatihan 
+            intensif dan setelah lulus berkesempatan untuk bekerja di Jepang secara resmi dengan gaji 
+            kompetitif dan peluang karier jangka panjang. Program ini terbuka mulai dari lulusan SMA/SMK 
+            (untuk caregiver), usia 19–35 tahun, dan sehat jasmani serta rohani.
+        </p>
+      </div>
+  
+      <!-- Gambar -->
+      <div class="md:w-1/2">
+        <img src="/assets/program1.png" alt="Program Perawat"
+             class="w-full max-h-[350px] object-cover rounded-lg shadow-lg" />
+      </div>
+    </div>
+  </section>
+  
+  <section class="bg-white flex flex-col md:flex-row items-center max-w-7xl mx-auto p-6 gap-8">
+    <!-- Gambar -->
+    <div class="md:w-1/2">
+      <img src="/assets/program2.png" alt="Magang Tekkin" class=" w-full max-h-[250px] rounded-lg shadow-md">
+    </div>
+
+    <!-- Teks -->
+    <div class="md:w-1/2 text-gray-800">
+      <h2 class="text-3xl font-semibold mb-4 text-slate-800">Program Magang Teknis</h2>
+      <p class="text-justify leading-relaxed">
+        Program magang teknis (Tekkin) yang diselenggarakan oleh LPK Tomoni Marawa Abadi di
+         Medan merupakan jalur resmi bagi tenaga kerja Indonesia untuk memperoleh pengalaman kerja
+          di Jepang. Program ini mencakup pelatihan bahasa Jepang, keterampilan teknis sesuai bidang
+           industri, serta pemahaman tentang budaya kerja Jepang. Salah satu contoh keberhasilan program 
+           ini adalah keberangkatan peserta magang Tekkin ke Osaka, Jepang, yang menunjukkan komitmen LPK 
+           Tomoni dalam memfasilitasi penempatan kerja internasional.  
+
+      </p>
+    </div>
+  </section>
+
+  <section class="bg-white max-w-7xl mx-auto p-6 rounded-lg shadow-md flex flex-col md:flex-row gap-8">
+    <!-- Teks -->
+    <div class="md:w-2/3 text-gray-800">
+      <h2 class="text-3xl font-extrabold mb-4 text-slate-900 leading-tight">
+        Program Keterampilan Khusus<br>
+        <span class="text-xl font-semibold">(Specified Skilled Worker Program)</span>
+      </h2>
+      <p class="text-justify leading-relaxed">
+        Program ini ditujukan untuk mendukung individu yang ingin membangun karier di berbagai bidang spesifik di Jepang, termasuk keperawatan serta bidang lainnya seperti pertanian, perikanan, restoran, perhotelan, konstruksi, manufaktur (seperti pemrosesan mesin dan pengepresan logam), industri makanan, perbaikan kendaraan, dan pembersihan gedung. Beragamnya bidang ini memberikan peluang luas bagi peserta untuk menemukan karier yang sesuai dengan keahlian dan minat mereka.
+        Kami menyediakan dukungan menyeluruh agar peserta dapat berkembang dalam masyarakat Jepang dan memaksimalkan keterampilan mereka. Dukungan ini mencakup pelatihan awal, pendidikan bahasa Jepang, pengurusan visa, hingga bantuan adaptasi dengan kehidupan dan budaya Jepang.
+        Dengan pendekatan yang komprehensif, kami memastikan peserta siap untuk menghadapi tantangan dan mencapai kesuksesan di masa depan. Kami berkomitmen untuk mendampingi peserta dalam setiap langkah perjalanan mereka, membantu mereka meraih keberhasilan jangka panjang di Jepang dan melampaui batas potensi mereka.
+      </p>
+    </div>
+
+    <!-- Gambar -->
+    <div class="md:w-1/3 mt-6 md:mt-12">
+      <img src="/assets/program3.jpg" alt="Peserta Magang" class="rounded-lg shadow-sm">
+    </div>
+  </section>
+
+  <section class="bg-[#0A2342] text-white text-center flex items-center justify-center min-h-screen px-4">
+    <p class="text-lg md:text-2xl leading-relaxed max-w-3xl">
+      Sistem Pendidikan Kekeluargaan untuk Mewujudkan 
+      <span class="font-medium">“Belajar Bersama, Bertumbuh Bersama, dan Sukses Bersama”</span>
+    </p>
+  </section>
+
+  <section class="bg-[white] min-h-screen flex flex-col md:flex-row justify-between items-center px-6 md:px-20 py-20">
+    <!-- Teks -->
+    <div class="text-left max-w-xl text-black">
+        <h1 class="text-4xl md:text-6xl font-light leading-tight">
+          Raih impian mu<br />
+          untuk kerja di<br />
+          <span class="font-semibold text-black">JEPANG<br />SEKARANG!</span>
+        </h1>
+      </div>
+      
+
+    <!-- Tombol -->
+    <div class="mt-10 md:mt-0">
+      <a href="#hubungi" class="bg-black text-white px-8 py-3 text-sm font-semibold tracking-wide hover:bg-gray-800 transition">
+        Hubungi Kami
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <img src="/assets/footer.jpg" alt="footer" class="w-full h-full object-cover">
+  </section>
+</body>
+</html>
